@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> DATA ENTRY</title>
+  <link rel="stylesheet" href="data.css">
+</head>
+<body>
+  <div class="YASAR-container">
+    <h2>YASAR STOREGE</h2>
+    <input type="text" id="taskInput" placeholder="Enter a task...">
+    <button onclick="addTask()">Add Task</button>
+    <ul id="taskList"></ul>
+    <div class="pagination">
+      <button onclick="prevPage()">⬅</button>
+      <span id="pageInfo">1</span>
+      <button onclick="nextPage()">➡</button>
+    </div>
+  </div>
+  <script src="./data.js"></script>
+</body>
+</html>
